@@ -4,12 +4,8 @@
 
 Este projeto é um aplicativo React Native e Typescript que permite gerenciar funcionários de uma empresa. A estrutura perpassa a visualização de uma tabela com dados vindos de uma API simulada. Ele possui as seguintes funcionalidades:
 
-<div style="display: flex; justify-content: space-around;">
-  <h1>1
-  <img src="./assets/BeTalentApp-ezgif.com-video-to-gif-converter.gif" alt="GIF 1">
-  <h1>2
-  <img src="./assets/BeTalentApp-ezgif.com-video-to-gif-converter%20(1).gif" alt="GIF 2">
-</div>
+[BeTalent1](./assets/BeTalentApp-ezgif.com-video-to-gif-converter.gif)
+[BeTalent2](./assets/BeTalentApp-ezgif.com-video-to-gif-converter%20(1).gif)
 
 * **Listagem de funcionários:** provindas com fetch, async, await de uma API simulada.
 * **Pesquisa de funcionários:** imput de pesquisa que permite filtrar dados por cargo, nome e telefone.
