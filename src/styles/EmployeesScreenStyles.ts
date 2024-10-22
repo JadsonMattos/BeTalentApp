@@ -1,0 +1,95 @@
+import { StyleSheet } from 'react-native';
+
+export const EmployeesScreenStyles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+    padding: 16,
+  },
+  darkContainer: {
+    flex: 1,
+    backgroundColor: '#000',
+    padding: 16,
+  },
+  header: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 16,
+    width: 375,
+    height: 79,
+  },
+  image: {
+    borderRadius: 107,
+    backgroundColor: '#F5F5F5',
+  },
+  iconRight: {
+    marginRight: 10,
+    fontSize: 30,
+    color: '#000',
+  },
+  iconRightLight: {
+    marginRight: 10,
+    fontSize: 30,
+    color: '#FFFFFF',
+  },
+  titleLight: {
+    fontSize: 20,
+    fontWeight: '500',
+    marginVertical: 16,
+    lineHeight: 24,
+    color: '#FFFFFF',
+  },
+  title: {
+    fontSize: 20,
+    fontWeight: '500',
+    marginVertical: 16,
+    lineHeight: 24,
+    color: '#000',
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#F5F5F5',
+    padding: 12,
+    borderRadius: 100,
+    marginBottom: 16,
+    shadowColor: '#000',
+    shadowOpacity: 0.1,
+    shadowRadius: 6,
+    elevation: 2,
+    height: 48,
+  },
+  searchInput: {
+    flex: 1,
+    paddingLeft: 10,
+    fontSize: 16,
+    lineHeight: 20,
+    fontWeight: '400',
+    color: '#1C1C1C',
+  },
+  spinnerContainer: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'absolute',
+    width: '100%',
+    height: '100%',
+  },
+  headerTable: {
+    borderWidth: 1,
+    marginTop: 16,
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+    borderColor: '#DFDFDF',
+  },
+  imageTable: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    width: 377,
+    height: 55,
+    borderTopLeftRadius: 8,
+    borderTopRightRadius: 8,
+  }
+});
